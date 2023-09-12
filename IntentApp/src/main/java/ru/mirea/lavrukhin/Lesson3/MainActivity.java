@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         String dateString = sdf.format(new Date(dateInMillis));
 
         Intent intent = new Intent(this, SecondActivity.class);
-        intent.putExtra("key", "КВАДРАТ МОЕГО ЗНАЧЕНИЯ ПО СПИСКУ В ГРУППЕ СОСТАВЛЯЕТ 18," + " а текущее время "
+        intent.putExtra("key", "КВАДРАТ МОЕГО ЗНАЧЕНИЯ ПО СПИСКУ В ГРУППЕ СОСТАВЛЯЕТ 196," + " а текущее время "
                 + dateString);
         startActivity(intent);
     }
